@@ -1,2 +1,22 @@
 # ProgBlackBot
-Private development area for my university project: a discord bot
+This is the area in which I'll be writing my development log for the 2nd term Programming Black project.
+<h3>2023/03/01</h3>
+<p>After hearing about this coursework piece and the fact that we could do anything for it I started thinking about the various projects that I've wanted to learn, I initially wanted to get into a web development area like Vue or React, then after hearing about openprocessing I thought about how I've always wanted to do more visual stuff with my programming, but after a brief search I wasn't able to find anything that I would want to contribute to.<br>
+I felt a bit stuck at that point, unsure what to work on, before looking at my smart watch and thinking "wow, I'd really like to get some custom stuff on here", and luckily for me it did look like WearOS has a fair few open projects on github that I could contribute to.<br>
+However, one of my good friends started working on a bot for our Discord Server, and I figure what would be a better way to collaborate than to activly talk to somebody and work on something together, rather than contributing to someone else's work.<br>
+So I decided I would learn more about APIs and help work on my friend's discord bot (looks like I'll have to get back to those other projects a different time).<p>
+
+First port of call:
+<h4>Figuring out how discord bots work</h4>
+<p>Like anybody learning to do something new, I typed into google "how to make a discord bot", and the <a href="https://www.ionos.co.uk/digitalguide/server/know-how/creating-discord-bot/">first link I found</a> looked like it would help.<br>
+And so I started to follow the steps, I enabled developer mode on my account, and followed the link through to <a href="https://discord.com/developers/docs/intro">Discord's developer portal<a> logged into the applications page, and created an application, calling it simply "JamesBot", threw in a profile picture and my ~~child~~ bot was created.<br>
+<img src="https://cdn.discordapp.com/attachments/1080452239300235314/1080452324536889384/Bot_Creation.png" alt="Bot Customization">
+Or so I thought... apparently I needed to navigate to the bots page to make it into an actual bot, maybe I'll understand the purpose of this later? Anywho, I changed my bot to private, so random people won't be adding this incomplete bot to my server, and though I don't know what I'm properly doing yet, I thrw in some permissions I think the bot will need, like sending messages, embeding links, read messages, add reactions and use commands. but if I need to update this later it looks<br>
+It seems like the guide is starting to get outdated at this point as the newest version of the discord developer portal looks different now, sayonara ionos.co.uk<br>
+As is tradition, if text tutorials don't work, then its time to go to youtube tutorials to see things in action, I immediatly found <a href="https://www.youtube.com/watch?v=qRMVNtIF73c">this video<a> where already it looks more like a propper programming. Thankfully I already have npm, javascript and python installed, so I can get going immediatly. I follow the basic steps, npm init, create the files (index.js and .env), and copy in my bot's token into the .env file. This video has a better way of explaining how to invite a bot to your server, so now JamesBot is right at home<br>
+<img src="https://cdn.discordapp.com/attachments/1080452239300235314/1080452324759179314/Bot_in_Server.png" alt="bot in server">
+From there I followed the video pretty, with my javascript codes identical to what he wrote, which I understand most of after our first programming black coursework. The program in this video is a simple program in which if a user types "ping", the bot replies with "pong".<br>
+After writing this code, I started the bot, and saw it move from offline to online in discord, and when I typed ping into chat, the bot replied.<br>
+<img src="https://cdn.discordapp.com/attachments/1080452239300235314/1080457668688351322/bot_ping_pong.png" alt="bot is online, I type in 'ping' bot replies with 'pong'"></p>
+<h4>Week 1 Conclusion</h4>
+<p>I am very happy with my progress so far, having went from no bot at all, to a bot that can reply to messages is good progress. Next week I'd like to have the bot perform something a little more impressive, and potentially start looking at how the bot programming differs in python, as that is the language I'll be using for my collaborative bot.</p>
